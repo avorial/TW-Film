@@ -1,0 +1,20 @@
+# Runtime data
+data/
+
+# Generated output files
+*.eml
+cinema_listings_*.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Playwright browser cache
+.playwright/
+
+# OS
+.DS_Store
+Thumbs.db

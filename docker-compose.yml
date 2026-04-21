@@ -1,0 +1,11 @@
+services:
+  cinema-scraper:
+    build: .
+    ports:
+      - "8763:8763"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - DOCKER_ENV=1
+      - PORT=8763
+    restart: unless-stopped
